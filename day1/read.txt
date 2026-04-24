@@ -1,0 +1,7 @@
+HI shila 
+this is your first day project strat from git 1 day
+I create new project and make 1 folder day 1 write some code instuction then push to github
+1. create repo first in github for track file code 
+2. go to your vs code then open terminal and write --> git init (git init code for connection git initialized empty file.)
+3. git status then we can see visible ealrlier careted file means i creted txt file.
+4. Git add . meand all files or we can write git add file name and enter
