@@ -25,3 +25,8 @@ comment delete and code store in staging -->git reset --soft HEAD~1
 git log -p -2 means only visible last 2 log
 git log --stat means obly visible comment of logs
 git log --pretty=oneline means only visible commitline
+git log --pretty=format:"%h - %an, %ar :%s" for check limited name - hrs - changes details
+git log -S "name" means - find out word when added and where the location date time.
+git log --grep="change" means we can find out about any same like above -S command any words any line help to findout
+if we only findout any author name from lots of author name only then --> git log --author="shila" 
+remote repo - 
