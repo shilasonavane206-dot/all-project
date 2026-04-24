@@ -29,4 +29,41 @@ git log --pretty=format:"%h - %an, %ar :%s" for check limited name - hrs - chang
 git log -S "name" means - find out word when added and where the location date time.
 git log --grep="change" means we can find out about any same like above -S command any words any line help to findout
 if we only findout any author name from lots of author name only then --> git log --author="shila" 
-remote repo - 
+remote repo - create file from gihub account and git pull code in vs code. 
+git diff - means differnce before after changes
+
+| **Category**     | **Command**                              | **Description**           |
+| ---------------- | ---------------------------------------- | ------------------------- |
+| 🔰 Setup         | `git config --global user.name "name"`   | Username set              |
+|                  | `git config --global user.email "email"` | Email set                 |
+| 📂 Start Project | `git init`                               | New repo start            |
+|                  | `git clone <url>`                        | Repo download             |
+| 📊 Check Status  | `git status`                             | Changes check             |
+|                  | `git branch`                             | Current branch list       |
+| ➕ Add Changes   | `git add .`                             | All files add            |
+|                  | `git add file.js`                        | Specific file add         |
+| 💾 Commit        | `git commit -m "msg"`                    | Save changes              |
+| 🔍 View Changes  | `git diff`                               | Unstaged changes          |
+|                  | `git diff --staged`                      | Staged changes            |
+| 📜 History       | `git log`                                | Full history              |
+|                  | `git log --oneline`                      | Short history             |
+| 🚀 Push          | `git push`                               | Push code                 |
+|                  | `git push -u origin main`                | First push                |
+| 📥 Pull          | `git pull`                               | Latest code               |
+| 🔗 Remote        | `git remote -v`                          | Check remote              |
+|                  | `git remote add origin <url>`            | Add remote                |
+|                  | `git remote remove origin`               | Remove remote             |
+| 🌿 Branch        | `git checkout -b branch`                 | Create branch             |
+|                  | `git checkout branch`                    | Switch branch             |
+|                  | `git branch -M main`                     | Rename branch             |
+| 🔀 Merge         | `git merge branch`                       | Merge branch              |
+| ❌ Undo          | `git restore file.js`                    | Undo file changes         |
+|                  | `git reset HEAD file.js`                 | Unstage file              |
+|                  | `git reset --soft HEAD~1`                | Remove commit (keep code) |
+|                  | `git reset --hard HEAD~1`                | Remove commit + code      |
+| 🔁 Revert        | `git revert HEAD`                        | Undo commit safely        |
+| 🧹 Clean         | `git rm -r --cached node_modules`        | Remove from git           |
+| ⚠️ Force Push    | `git push -f`                            | Force update (careful)    |
+| 🔎 Show Commit   | `git show`                               | Commit details            |
+| 📦 Install deps  | `npm install`                            | Install packages          |
+| ▶️ Run project   | `npm start`                              | Run app                   |
