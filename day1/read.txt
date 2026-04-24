@@ -67,3 +67,6 @@ git diff - means differnce before after changes
 | 🔎 Show Commit   | `git show`                               | Commit details            |
 | 📦 Install deps  | `npm install`                            | Install packages          |
 | ▶️ Run project   | `npm start`                              | Run app                   |
+
+
+git code from githum - git clone <github url> enter
