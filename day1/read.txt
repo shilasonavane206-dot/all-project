@@ -5,3 +5,10 @@ I create new project and make 1 folder day 1 write some code instuction then pus
 2. go to your vs code then open terminal and write --> git init (git init code for connection git initialized empty file.)
 3. git status then we can see visible ealrlier careted file means i creted txt file.
 4. Git add . meand all files or we can write git add file name and enter
+5. again check file status what is green or red if wroking fine then visible --> new file: day1/read.txt
+6. add commit for push code like git commit -m "status"
+7. git push on your github repo file.
+8. if you want to change repo path then 
+--> git remote remove origin <path url> remove old path 
+--> git remote add origin <path url> 
+--> git remote -v check status 
