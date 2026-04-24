@@ -22,3 +22,6 @@ if any wrong content added and commit code how to restore then just git restore 
 if you want wrong content delete process - 
 comment + content delete then apply --> git reset --hard HEAD~1 
 comment delete and code store in staging -->git reset --soft HEAD~1
+git log -p -2 means only visible last 2 log
+git log --stat means obly visible comment of logs
+git log --pretty=oneline means only visible commitline
