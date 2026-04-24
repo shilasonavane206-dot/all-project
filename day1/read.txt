@@ -10,5 +10,11 @@ I create new project and make 1 folder day 1 write some code instuction then pus
 7. git push on your github repo file.
 8. if you want to change repo path then 
 --> git remote remove origin <path url> remove old path 
---> git remote add origin <path url> 
+--> git remote add origin <path url>  for new repo file connect to project
 --> git remote -v check status 
+first check bydefault master branch is active to change main branch then push code
+--> git branch 
+--> git branch -M main (master to main)
+--> git branch (status) 
+--> git push -u origin main(push your repo folder in main branch ) 
+if change again your vs code means your file is midified: for check command -->git status
