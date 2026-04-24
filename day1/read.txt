@@ -18,4 +18,7 @@ first check bydefault master branch is active to change main branch then push co
 --> git branch (status) 
 --> git push -u origin main(push your repo folder in main branch ) 
 if change again your vs code means your file is midified: for check command -->git status
-if any wrong content added then just git restore commad enter --> git restore --worktree then remove wrong code.
+if any wrong content added and commit code how to restore then just git restore commad enter --> git restore --worktree then remove wrong code.
+if you want wrong content delete process - 
+comment + content delete then apply --> git reset --hard HEAD~1 
+comment delete and code store in staging -->git reset --soft HEAD~1
