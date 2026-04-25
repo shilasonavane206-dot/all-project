@@ -42,3 +42,4 @@ Ans - I use git branch to create a branch, git checkout or git switch to move be
 | Create + switch | `git checkout -b design` |
 | Rename main     | `git branch -M main`     |
 | Delete          | `git branch -d design`   |
+
