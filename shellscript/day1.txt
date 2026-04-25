@@ -26,3 +26,5 @@ Repo clean hai ya nahi (ek file change hui / ek new file add hui)
 
 4.Galat commit ho gaya — kaise undo karoge?
 Ans - I use reset for local changes and revert for already pushed commits 
+
+zdfczxczxc
