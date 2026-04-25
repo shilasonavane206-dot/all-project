@@ -26,3 +26,19 @@ Repo clean hai ya nahi (ek file change hui / ek new file add hui)
 
 4.Galat commit ho gaya — kaise undo karoge?
 Ans - I use reset for local changes and revert for already pushed commits 
+(If editior open then enter ESC + :wq )
+
+5. git pull vs git fetch difference?
+Ans - git fetch downloads changes from remote but does not merge, while git pull is a combination of fetch and merge that updates the local branch directly
+git pull - Remote repository (GitHub) se code fetch + merge karke local branch me le aata hai
+git fetch - Sirf remote changes ko download karta hai lekin merge nahi karta.
+
+Branch kaise create, switch aur delete karte hain?
+Ans - I use git branch to create a branch, git checkout or git switch to move between branches, and git branch -d to delete branches. For creating and switching together, I use git checkout -b branch-name.
+| Action          | Command                  |
+| --------------- | ------------------------ |
+| Create          | `git branch design`      |
+| Switch          | `git checkout design`    |
+| Create + switch | `git checkout -b design` |
+| Rename main     | `git branch -M main`     |
+| Delete          | `git branch -d design`   |
