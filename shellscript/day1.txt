@@ -1,0 +1,28 @@
+1. New project GitHub pe push karna hai from scratch — full commands likho
+ANS - 
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin <repo-url>
+git push -u origin main
+
+2.Difference between:
+git add
+git commit
+git push
+Ans -
+git add - changes ko staging me le aana. ab ye file commit ke liye ready hai.
+git commit - local repo me comment karke save karna means uska snapshot banati hai.
+git push - local commit ko remote repository (github) pe bhejta hai.
+
+3. Git Status kya batata hai?
+Ans - git status shows working directory, staging area, and untracked files
+Kaunse files modified hain
+Kaunse files staging area me hain (git add ke baad)
+Kaunse files untracked hain (new files)
+Kaunsa branch active hai
+Repo clean hai ya nahi (ek file change hui / ek new file add hui)
+
+4.Galat commit ho gaya — kaise undo karoge?
+Ans - I use reset for local changes and revert for already pushed commits 
