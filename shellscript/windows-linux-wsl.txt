@@ -1,0 +1,87 @@
+🧠 1. Windows kya hai?
+
+👉 Windows ek Operating System hai
+👉 jo tum apne laptop pe use karti ho
+
+Example:
+
+File Explorer
+Notepad
+PowerShell
+
+➡️ Ye sab Windows ka part hai
+
+🧠 2. Linux kya hai?
+
+👉 Linux bhi ek Operating System hai (Windows jaisa)
+
+👉 But:
+
+zyada use hota hai servers me
+command line based hota hai
+DevOps me most important
+🧠 3. Unix kya hai?
+
+👉 Unix ek old Operating System family hai
+
+👉 Linux actually:
+➡️ Unix jaisa (Unix-like) system hai
+
+💡 Simple relation
+Unix (old)
+   ↓
+Linux (modern, similar idea)
+🧠 4. Ubuntu kya hai?
+
+👉 Ubuntu = Linux ka version (flavour)
+
+👉 Jaise:
+
+Windows ke versions hote hain (10, 11)
+👉 Waise Linux ke versions:
+Ubuntu
+Fedora
+CentOS
+
+➡️ Tum Ubuntu use kar rahi ho
+
+🧠 5. WSL kya hai?
+
+👉 WSL = Windows Subsystem for Linux
+
+👉 Matlab:
+➡️ Windows ke andar Linux run karna
+
+💡 Simple example
+
+👉 Tumhare laptop me:
+
+Windows = main system
+WSL = bridge
+Ubuntu = Linux environment
+
+Your Laptop
+   ↓
+Windows
+   ↓
+WSL
+   ↓
+Ubuntu (Linux terminal)
+
+👉 “Windows is an operating system used for desktops.”
+
+👉 “Linux is an open-source operating system widely used in servers.”
+
+👉 “Unix is an older operating system, and Linux is Unix-like.”
+
+👉 “Ubuntu is a Linux distribution.”
+
+👉 “WSL allows running Linux inside Windows.”
+
+| Term    | Meaning                  |
+| ------- | ------------------------ |
+| Windows | Your main OS             |
+| Linux   | Server OS                |
+| Unix    | Old OS family            |
+| Ubuntu  | Linux version            |
+| WSL     | Run Linux inside Windows |

@@ -26,14 +26,14 @@ Repo clean hai ya nahi (ek file change hui / ek new file add hui)
 
 4.Galat commit ho gaya — kaise undo karoge?
 Ans - I use reset for local changes and revert for already pushed commits 
-(If editior open then enter ESC + :wq )
+--> git revert HEAD (If editior open then enter ESC + :wq ) 
 
 5. git pull vs git fetch difference?
 Ans - git fetch downloads changes from remote but does not merge, while git pull is a combination of fetch and merge that updates the local branch directly
 git pull - Remote repository (GitHub) se code fetch + merge karke local branch me le aata hai
 git fetch - Sirf remote changes ko download karta hai lekin merge nahi karta.
 
-Branch kaise create, switch aur delete karte hain?
+6. Branch kaise create, switch aur delete karte hain?
 Ans - I use git branch to create a branch, git checkout or git switch to move between branches, and git branch -d to delete branches. For creating and switching together, I use git checkout -b branch-name.
 | Action          | Command                  |
 | --------------- | ------------------------ |
@@ -42,3 +42,37 @@ Ans - I use git branch to create a branch, git checkout or git switch to move be
 | Create + switch | `git checkout -b design` |
 | Rename main     | `git branch -M main`     |
 | Delete          | `git branch -d design`   |
+
+7. .gitignore ka use kya hai? Example
+ANS - gitignore is used to tell Git which files or folders should not be tracked like node_modules, .env, logs.
+
+8. Tum push karte ho aur error aata hai: rejected (fetch first) tab kya karoge?
+AMS - This error means the remote repository has new changes. I will first run git pull, then push again.
+
+9. Merge conflict aata hai — kaise resolve karte ho?
+ANS - Merge conflict happens when the same file is modified in both branches. I will open the file, manually fix the code, then add and commit it.
+
+10. Tum new branch pe kaam kar rahe ho? usko main branch me kaise merge karoge?
+Ans - I switch to the main branch and merge the feature branch into it.
+git checkout main (switch to main branch)
+git merge feature-branch 
+
+11.What is: Git terms
+- HEAD
+- origin
+- upstream
+ANS - HEAD → Current branch pointer
+origin → Remote repository (GitHub)
+upstream → Connection between local branch and remote branch
+
+12. git rebase kya hota hai? Merge se kaise different hai?
+ANS - Rebase moves commits to create a linear history without merge commits. It makes history cleaner than merge.
+
+13. Force push (git push -f) kab use karte hain? Risk kya hai?
+ANS - Force push overwrites remote history. It is used after rebase but it is risky because it can delete others’ work.
+
+14. CI/CD pipeline me Git ka role kya hai?
+ANS - Git is used to store code and trigger CI/CD pipelines automatically for build, test, and deployment.
+
+
+
